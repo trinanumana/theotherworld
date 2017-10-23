@@ -42,3 +42,12 @@ body {
 	}
 
 }
+
+@media screen and (max-width: 600px) {
+	.pt1 {
+		width: 100%;
+	}
+	.pt2 {
+		width: 100%;
+	}
+}
