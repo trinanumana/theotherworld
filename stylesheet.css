@@ -19,10 +19,6 @@ body {
 	width: 100%;
 }
 
-img {
-	
-}
-
 .intro {
 	font-family: 'Homemade Apple', cursive;
 	text-align: center;
@@ -58,7 +54,10 @@ p::selection {
 }
 
 @media screen and (max-width: 1000px) {
-	.box1{
+	img {
+		display:none;
+	}
+	.box1 {
 		height: 10vh;
 		width: 100vw;
 	}
