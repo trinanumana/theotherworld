@@ -1,20 +1,38 @@
+/*https://stackoverflow.com/questions/18032220/css-change-image-src-on-imghover help with hover*/
+
 body {
 	height: 100hv;
 	width: 100vw;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #3A1740;
+	background-color: #1C121F;
+	cursor: crosshair;
 }
 
 .box1 {
 	height: 100vh;
 	width: 40vw;
-	background-color: #3A1740;
 }
 
 .links {
 	height: 85%;
 	width: 100%;
+}
+
+img {
+	
+}
+
+.intro {
+	font-family: 'Homemade Apple', cursive;
+	text-align: center;
+	color: #B2AEC9;
+	padding: 2px;
+}
+
+p::selection {
+	background-color: #B2AEC9;
+	color: #1C121F;
 }
 
 .box2 {
