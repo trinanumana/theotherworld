@@ -61,6 +61,10 @@ p::selection {
 		height: 10vh;
 		width: 100vw;
 	}
+	.intro {
+		font-size: 30px;
+		padding-bottom: none;
+	}
 	.box2 {
 		height: 90vh;
 		width: 100vw;
