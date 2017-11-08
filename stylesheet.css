@@ -1,5 +1,6 @@
 /*https://stackoverflow.com/questions/18032220/css-change-image-src-on-imghover help with hover*/
 
+/*desktop*/
 body {
 	height: 100hv;
 	width: 100vw;
@@ -36,34 +37,73 @@ p::selection {
 	width: 60vw;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #1E7359;
+}
+
+.board {
+	
 }
 
 .pt1 {
 	height: 100%;
 	width: 50%;
-	opacity: 0.5;
-	background-color: #4240D9;
+}
+
+.name {
+	font-family: 'Cardo', serif;
+	color: white;
+}
+
+.photo {
+	height: 30%;
+	width: 80%;
+}
+
+.sideA {
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.sideB {
+	padding-left: 5%;
+}
+
+.left {
+	text-align: left;
+	padding-left: 5%;
+}
+
+.right {
+	text-align: right;
+	padding-right: 15%;
+}
+
+.coraline2 {
+	content: url(images/coraline2);
+	height: 20%;
+	width: 90%;
 }
 
 .pt2 {
 	height: 100%;
 	width: 50%;
-	opacity: 0.5;
-	background-color: #D9BB59;
 }
 
+
+
+.othermother {
+	
+}
+
+/*mobile 1*/
 @media screen and (max-width: 1000px) {
-	img {
-		display:none;
-	}
 	.box1 {
 		height: 10vh;
 		width: 100vw;
+		background-color: #FF9B25;
+		opacity: 0.9;
 	}
 	.intro {
-		font-size: 30px;
-		padding-bottom: none;
+		display: none;
 	}
 	.box2 {
 		height: 90vh;
@@ -72,6 +112,7 @@ p::selection {
 
 }
 
+/*mobile 2*/
 @media screen and (max-width: 600px) {
 	.pt1 {
 		width: 100%;
