@@ -1,49 +1,39 @@
-function myFunction() {
-	var element=document.getElementById("cora1");
+function myTabby() {
+	var element=document.getElementById("tcat");
 	element.classList.remove("hidden");
 }
 
-function makeChange() {
-	var element=document.getElementById("cora1");
+function makeTabby() {
+	var element=document.getElementById("tcat");
 	element.classList.add("hidden");
 }
 
-function melJones() {
-	var element=document.getElementById("regmom");
+function myRussianb() {
+	var element=document.getElementById("rbcat");
 	element.classList.remove("hidden");
 }
 
-function jonesMel() {
-	var element=document.getElementById("regmom");
+function makeRussianb() {
+	var element=document.getElementById("rbcat");
 	element.classList.add("hidden");
 }
 
-function theCat() {
-	var element=document.getElementById("cat");
+function myOrange() {
+	var element=document.getElementById("ocat");
 	element.classList.remove("hidden");
 }
 
-function catGone() {
-	var element=document.getElementById("cat");
+function makeOrange() {
+	var element=document.getElementById("ocat");
 	element.classList.add("hidden");
 }
 
-function otherMother() {
-	var element=document.getElementById("othermother");
+function myMaine() {
+	var element=document.getElementById("mccat");
 	element.classList.remove("hidden");
 }
 
-function motherOther() {
-	var element=document.getElementById("othermother");
-	element.classList.add("hidden");
-}
-
-function secondCat() {
-	var element=document.getElementById("cat2");
-	element.classList.remove("hidden");
-}
-
-function catSecond() {
-	var element=document.getElementById("cat2");
+function makeMaine() {
+	var element=document.getElementById("mccat");
 	element.classList.add("hidden");
 }
