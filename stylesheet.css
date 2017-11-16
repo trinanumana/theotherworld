@@ -6,7 +6,7 @@ body {
 	width: 100vw;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #1C121F;
+	background-color: #2C5B6C;
 	cursor: crosshair;
 }
 
@@ -25,8 +25,9 @@ body {
 	font-family: 'Homemade Apple', cursive;
 	text-align: center;
 	font-size: 20px;
-	color: #B2AEC9;
-	padding-top: 2px
+	color: #998C55;
+	padding-top: 2px;
+	text-justify: center;
 }
 
 .sub {
@@ -51,17 +52,17 @@ p::selection {
 	width: 100%;
 }
 
-.lightblue {
-	background-color: #8EB8AA;
+.lightblue, .lightblue2 {
+	background-color: #CCCAC4;
 }
 
-.darkblue {
-	background-color: #016B7D;
+.darkblue, .darkblue2{
+	background-color: #B07A03;
 }
 
 .photo {
-	height: 100%;
-	width: 80%;
+	max-height: 100%;
+	max-width: 80%;
 	padding-left: 10%;
 	opacity: 1
 }
@@ -81,30 +82,20 @@ p::selection {
 }
 
 /*mobile 1*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 	.box1 {
 		height: 10vh;
 		width: 100vw;
-		background-color: #BD9925;
-		opacity: 0.9;
+		background-color: #B07A03;
 	}
 	.intro {
 		display: none;
-	}
-	
-	.sideA {
-	padding-left: 5%;
-	}
-
-	.sideB {
-	padding-left: 2%;
 	}
 
 	.box2 {
 		height: 90vh;
 		width: 100vw;
 	}
-
 }
 
 /*mobile 2*/
@@ -114,5 +105,18 @@ p::selection {
 	}
 	.pt2 {
 		width: 100%;
+	}
+	
+	.lightblue2 {
+		background-color: #B07A03;
+	}
+	
+	.darkblue2 {
+		background-color: #CCCAC4;
+	}
+	
+	.photo {
+		width: 70%;
+		padding-left: 15%;
 	}
 } 
