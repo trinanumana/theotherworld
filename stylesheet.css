@@ -82,11 +82,11 @@ p::selection {
 }
 
 /*mobile 1*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
 	.box1 {
 		height: 10vh;
 		width: 100vw;
-		background-color: #B07A03;
+		background-color: #2C5B6C;
 	}
 	.intro {
 		display: none;
