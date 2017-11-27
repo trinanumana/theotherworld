@@ -122,7 +122,7 @@ p::selection {
 		padding-left: 15%;
 	}
 	
-	img {
+	.cats {
 		max-width: 50%;
 	}
 } 
