@@ -108,6 +108,10 @@ p::selection {
 		width: 100%;
 	}
 	
+	.box {
+		height: 40%;
+	}
+	
 	.lightblue2 {
 		background-color: #B07A03;
 	}
