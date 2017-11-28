@@ -37,3 +37,13 @@ function makeMaine() {
 	var element=document.getElementById("mccat");
 	element.classList.add("hidden");
 }
+
+function myWhiteBrown() {
+	var element=document.getElementById("wcat");
+	element.classList.remove("hidden");
+}
+
+function makeWhiteBrown() {
+	var element=document.getElementById("wcat");
+	element.classList.add("hidden");
+}
