@@ -11,7 +11,7 @@ function showOther(e) {
 }
 
 function showPara(e) {
-	document.getElementById("kittytalk4").innerHTML="You can tell how your cat is feelin gby the way they're moving their tail.";
+	document.getElementById("kittytalk4").innerHTML="You can tell how your cat is feeling by the way they're moving their tail.";
 }
 
 function myTabby() {
