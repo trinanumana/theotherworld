@@ -6,6 +6,8 @@ body {
 	flex-wrap: wrap;
 	background-color: #2C5B6C;
 	cursor: crosshair;
+	margin-left: -8px;
+	margin-bottom: -8px;
 }
 
 .box1 {
