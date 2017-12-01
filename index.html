@@ -13,9 +13,9 @@
 	<body>
 		
 		<div class="box1">
-			<div class="links intro">
+			<div class="intro">
 				<img src="images/duchess.gif" class="duchess">
-				<p>World of Cats</p>
+				<p class="woc">World of Cats</p>
 				<p class="sub">"Cats seem to live on the principle that it never does any harm to ask for what you want." - Joseph Wood Krutch</p>
 			</div>
 		</div>
@@ -24,38 +24,25 @@
 				<div class="box lightblue">
 					<img id="tcat" src="images/tabby.png" class="cats photo hidden" onmouseover="myTabby()" onmouseout="makeTabby()"/>
 				</div>
-				<div id="kittytalk" class="box darkblue">
+				<div id="kittytalk" class="box darkblue" onclick="showText(this)">
 				</div>
 				<div class="box lightblue">
 					<img id="wcat" src="images/whitebrown.png" class="cats photo hidden" onmouseover="myWhiteBrown()" onmouseout="makeWhiteBrown()"/>
 				</div>
-				<div class="box darkblue">
+				<div id="kittytalk2" class="box darkblue" onclick="showDif(this)">
 				</div>
 			</div>
 			<div class="pt2">
-				<div class="box darkblue2">
+				<div id="kittytalk3" class="box darkblue2" onclick="showOther(this)">
 				</div>
 				<div class="box lightblue2">
 					<img id="rbcat" src="images/russianblue.png" class="cats photo hidden" onmouseover="myRussianb()" onmouseout="makeRussianb()"/>
 				</div>
-				<div class="box darkblue2">
+				<div id="kittytalk4" class="box darkblue2" onclick="showPara(this)">
 				</div>
 				<div class="box lightblue2">
 					<img id="ocat" src="images/orange.png" class="cats photo hidden" onmouseover="myOrange()" onmouseout="makeOrange()"/>
 				</div>
-		<!-- secret box -->
-			<div class="secretbox">
-				<div class="box darkblue2">
-					<img id="rbcat" src="images/russianblue.png" class="cats photo hidden" onmouseover="myRussianb()" onmouseout="makeRussianb()"/>
-				</div>
-				<div class="box lightblue2">	
-				</div>
-				<div class="box darkblue2">
-					<img id="ocat" src="images/orange.png" class="cats photo hidden" onmouseover="myOrange()" onmouseout="makeOrange()"/>
-				</div>
-				<div class="box lightblue2">
-				</div>
-			</div>
 		</div>
 		
 		<script src="script.js"> </script>
