@@ -48,8 +48,7 @@ p::selection {
 	height: 25%;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	padding-top: 
+	text-align: center; 
 }
 
 .lightblue, .lightblue2 {
@@ -97,6 +96,10 @@ p::selection {
 	.box2 {
 		height: 90vh;
 		width: 100vw;
+	}
+	
+	.box {
+		font-size: 25px;
 	}
 }
 
