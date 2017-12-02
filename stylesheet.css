@@ -27,11 +27,6 @@ body {
 	text-justify: center;
 }
 
-.duchess {
-	width: 30%;
-	height: 40%;
-}
-
 .sub {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -84,7 +79,7 @@ body {
 }
 
 /*mobile 1*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1350px) {
 	.box1 {
 		height: 10vh;
 		width: 100vw;
