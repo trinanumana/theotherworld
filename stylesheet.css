@@ -27,6 +27,11 @@ body {
 	text-justify: center;
 }
 
+.duchess {
+	width: 30%;
+	height: 40%;
+}
+
 .sub {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
