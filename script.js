@@ -1,5 +1,5 @@
 function showText(e) {
-	document.getElementById("kittytalk").innerHTML="Did you know that cats sleep, on average, 13 to 14 hours a day?";
+	document.getElementById("kittytalk").innerHTML="Cats sleep, on average, 13 to 14 hours a day?";
 }
 
 function showDif(e) {
@@ -11,7 +11,7 @@ function showOther(e) {
 }
 
 function showPara(e) {
-	document.getElementById("kittytalk4").innerHTML="You can tell how your cat is feeling by the way they're moving their tail.";
+	document.getElementById("kittytalk4").innerHTML="Cats show emotion by the way they move their tail.";
 }
 
 //AUDIO FROM http://www.orangefreesounds.com/category/sound-effects/animal-sounds/cat-meow-sound/
