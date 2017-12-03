@@ -14,6 +14,26 @@ function showPara(e) {
 	document.getElementById("kittytalk4").innerHTML="You can tell how your cat is feeling by the way they're moving their tail.";
 }
 
+function playMeow(e) {
+	var audio = new Audio('meow1.mp3');
+	audio.play();
+}
+
+function playSound(e) {
+	var audio = new Audio('meow2.mp3');
+	audio.play();
+}
+
+function playAudio(e) {
+	var audio = new Audio('meow3.mp3');
+	audio.play();
+}
+
+function playMusic(e) {
+	var audio = new Audio('meow4.mp3');
+	audio.play();
+}
+
 function myTabby() {
 	var element=document.getElementById("tcat");
 	element.classList.remove("hidden");
