@@ -42,6 +42,7 @@ function myTabby() {
 function makeTabby() {
 	var element=document.getElementById("tcat");
 	element.classList.add("hidden");
+	audio.stop();
 }
 
 function myRussianb() {
