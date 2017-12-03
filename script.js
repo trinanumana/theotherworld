@@ -7,7 +7,7 @@ function showDif(e) {
 }
 
 function showOther(e) {
-	document.getElementById("kittytalk3").innerHTML="Hi! Welcome to the World of Cats. Here, you can find facts on cats. I hope you enjoy.";
+	document.getElementById("kittytalk3").innerHTML="Welcome to the World of Cats. Here, you can find facts on felines.";
 }
 
 function showPara(e) {
