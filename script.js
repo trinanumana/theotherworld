@@ -42,7 +42,7 @@ function myTabby() {
 function makeTabby() {
 	var element=document.getElementById("tcat");
 	element.classList.add("hidden");
-	audio.stop();
+	audio.pause("meowp3/meow1.mp3");
 }
 
 function myRussianb() {
