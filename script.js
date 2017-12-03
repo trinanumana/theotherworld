@@ -15,22 +15,22 @@ function showPara(e) {
 }
 
 function playMeow(e) {
-	var audio = new Audio('meow1.mp3');
+	var audio = new Audio('meowp3/meow1.mp3');
 	audio.play();
 }
 
 function playSound(e) {
-	var audio = new Audio('meow2.mp3');
+	var audio = new Audio('meowp3/meow2.mp3');
 	audio.play();
 }
 
 function playAudio(e) {
-	var audio = new Audio('meow3.mp3');
+	var audio = new Audio('meowp3/meow3.mp3');
 	audio.play();
 }
 
 function playMusic(e) {
-	var audio = new Audio('meow4.mp3');
+	var audio = new Audio('meowp3/meow4.mp3');
 	audio.play();
 }
 
