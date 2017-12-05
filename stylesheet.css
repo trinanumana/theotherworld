@@ -114,3 +114,15 @@ body {
 		font-size: 20px;
 	}
 }
+
+/* mobile 2 */
+@media screen and (max-width: 800px) {
+	.intro {
+		font-size: 30px;
+		padding-bottom: 4px;
+	}
+	
+	.box {
+		font-size: 25px;
+	}
+}
