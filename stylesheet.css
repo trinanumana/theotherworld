@@ -94,8 +94,8 @@ body {
 	}
 	
 	.intro {
-		height: 5vh;
-		width: 100vw;
+		height: 5%;
+		width: 100%;
 		font-size: 25px;
 		padding-bottom: 4px;
 		position: initial;
