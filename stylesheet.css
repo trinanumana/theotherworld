@@ -79,6 +79,11 @@ body {
 	cursor: pointer;
 }
 
+.box:hover {
+	filter: grayscale(60%);
+	transition: .5s;
+}
+
 .pt1 {
 	height: 100%;
 	width: 50%;
