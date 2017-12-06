@@ -53,11 +53,11 @@ body {
 	color: #CCCAC4;
 }
 
-.lightblue {
+.light {
 	background-color: #CCCAC4;
 }
 
-.darkblue {
+.dark {
 	background-color: #B07A03;
 }
 
@@ -75,7 +75,7 @@ body {
 	cursor: pointer;
 }
 
-.darkblue:hover {
+.dark:hover {
 	cursor: pointer;
 }
 
