@@ -83,7 +83,7 @@ body {
 }
 
 .box:hover {
-	filter: grayscale(60%);
+	filter: opacity(60%);
 	transition: .5s;
 }
 
