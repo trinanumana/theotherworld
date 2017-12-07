@@ -15,7 +15,7 @@ function showPara(e) {
 	document.getElementById("kittytalk4").innerHTML="Cats show emotion by the way they move their tail.";
 }
 
-//
+//this
 function resetInner(e) {
 	document.getElementById("kittytalk").innerHTML="";
 	document.getElementById("kittytalk2").innerHTML="";
