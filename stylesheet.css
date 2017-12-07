@@ -23,8 +23,6 @@ body {
 
 .woc:hover {
 	cursor: pointer;
-	color: #3D3B34;
-	transition: .5s;
 }
 
 .intro {
