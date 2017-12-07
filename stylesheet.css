@@ -3,7 +3,7 @@ body {
 	width: 100vw;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #2C5B6C;
+	background-color: #CCCAC4;
 	cursor: crosshair;
 }
 
@@ -15,12 +15,16 @@ body {
 .duchess {
 	width: 400px;
 	height: 400px;
-	padding-top: 5%;
+	border: double;
 	filter: none;
+	opacity: .8%;
+	filter: grayscale(30%);
 }
 
-.duchess:hover {
+.woc:hover {
 	cursor: pointer;
+	color: #3D3B34;
+	transition: .5s;
 }
 
 .intro {
@@ -30,7 +34,7 @@ body {
 	font-family: 'Homemade Apple', cursive;
 	text-align: center;
 	font-size: 25px;
-	color: #998C55;
+	color: #453F26;
 	padding-top: 2px;
 }
 
@@ -57,11 +61,11 @@ body {
 }
 
 .light {
-	background-color: #CCCAC4;
+	background-color: #799DAB;
 }
 
 .dark{
-	background-color: #B07A03;
+	background-color: #5E7A84;
 }
 
 .photo {
@@ -102,7 +106,6 @@ body {
 	.box1 {
 		height: 10vh;
 		width: 100vw;
-		background-color: #2C5B6C;
 	}
 	
 	.intro {
