@@ -23,6 +23,7 @@ function resetInner(e) {
 	document.getElementById("kittytalk4").innerHTML="";
 }
 
+//CODE FROM https://stackoverflow.com/questions/9419263/playing-audio-with-javascript
 //AUDIO FROM http://www.orangefreesounds.com/category/sound-effects/animal-sounds/cat-meow-sound/
 //these functions work when the element, img, is clicked on. in the HTML, the img has an 'onclick' and that commands the javascript to play the audio file that's specified in the singular function. For this, nothing from the CSS is being pulled or added.
 function playMeow(e) {
