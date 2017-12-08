@@ -91,12 +91,12 @@ body {
 
 .pt1 {
 	height: 100%;
-	width: 50%;
+	width: calc(100%/2);
 }
 
 .pt2 {
 	height: 100%;
-	width: 50%;
+	width: calc(100%/2);
 }
 
 /*mobile*/
