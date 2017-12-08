@@ -5,6 +5,7 @@ body {
 	flex-wrap: wrap;
 	background-color: #CCCAC4;
 	cursor: crosshair;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .box1 {
@@ -37,7 +38,6 @@ body {
 }
 
 .sub {
-	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	margin-left: 20%;
 	margin-right: 20%;
@@ -53,7 +53,6 @@ body {
 .box {
 	height: 25%;
 	width: 100%;
-	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	color: #CCCAC4;
 }
