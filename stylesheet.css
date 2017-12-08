@@ -30,11 +30,14 @@ body {
 	height: 85%;
 	width: 40%;
 	position: fixed;
-	font-family: 'Homemade Apple', cursive;
 	text-align: center;
 	font-size: 25px;
 	color: #453F26;
 	padding-top: 2px;
+}
+
+.woc {
+	font-family: 'Homemade Apple', cursive;
 }
 
 .sub {
