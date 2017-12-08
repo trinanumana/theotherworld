@@ -109,7 +109,7 @@ body {
 	.intro {
 		height: 5vh;
 		width: 100vw;
-		font-size: 25px;
+		font-size: 50%;
 		padding-bottom: 4px;
 		position: initial;
 	}
@@ -124,6 +124,6 @@ body {
 	}
 	
 	.box {
-		font-size: 20px;
+		font-size: 25%;
 	}
 }
